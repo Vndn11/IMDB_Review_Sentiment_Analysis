@@ -21,45 +21,23 @@ This dataset is widely used in sentiment analysis research due to its large size
 Before training the Naïve Bayes model, it is crucial to preprocess the text data to improve classification accuracy. The following preprocessing techniques are applied:
 3.1 Lowercasing
 To ensure uniformity, all text is converted to lowercase, eliminating any inconsistencies due to case sensitivity.
-
 <img width="299" alt="image" src="https://github.com/user-attachments/assets/316c1259-b957-4b96-a2bc-485c1d7cd047" />
-
 This step helps to standardize the text, ensuring that words like "Great" and "great" are treated as the same word.
-
 3.2 Remove HTML Tags
 Many reviews contain HTML tags that are unnecessary for sentiment analysis. Removing them cleans up the text:
-
-
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/8434158f-12ca-4cc8-8091-af277ce93fa7" />
-
-
 HTML tags, often found in web-based datasets, do not contribute meaningfully to the sentiment classification task.
-
 3.3 Remove URLs
 Since some reviews contain website links (URLs), these need to be removed:
-
-
 <img width="522" alt="image" src="https://github.com/user-attachments/assets/6674c50f-16e5-4810-b93e-a7c7d622df83" />
-
-
 URLs do not carry sentiment-related information, so removing them ensures that the model is not distracted by irrelevant text.
-
 3.4 Remove Punctuation
 Punctuation marks such as commas, periods, exclamation marks, and question marks are removed since they do not contribute significantly to sentiment meaning:
-
-
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/4303c958-e036-46fc-8e1e-298a747d351e" />
-
-
-Removing punctuation helps simplify text analysis, ensuring that words are not split by unnecessary characters.
-
+Removing punctuation helps simplify text analysis, ensuring that words are not split by unnecessary characters
 3.5 Handling Chatwords
 Commonly used internet slang and abbreviations are expanded into their full forms to maintain textual clarity:
-
-
 <img width="373" alt="image" src="https://github.com/user-attachments/assets/2901c0f8-ac89-46bc-96fa-65b11ef735d1" />
-
-
 Expanding chat words such as "LOL" → "Laughing Out Loud" ensures that the model understands the actual sentiment conveyed in informal text.
 
 3.6 Remove Stopwords
