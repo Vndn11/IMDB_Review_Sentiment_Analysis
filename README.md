@@ -3,14 +3,12 @@ Naïve Bayes Sentiment Analysis on IMDB Review Dataset
 
 1. Introduction
 This project aims to implement a Naïve Bayes classifier for sentiment analysis on the IMDB movie reviews dataset. The primary goal is to classify movie reviews as either positive or negative based on their textual content. The Naïve Bayes algorithm, a probabilistic classification technique based on Bayes' Theorem, is used to determine the likelihood of a given review belonging to a specific sentiment category.
-
 The implementation follows a structured approach involving multiple phases, including data preprocessing, feature extraction, model training, evaluation, and real-time user interaction. Various text-processing techniques such as tokenization, stopword removal, lemmatization, and feature engineering are utilized to transform raw text into structured numerical representations suitable for machine learning models. The final model is evaluated based on standard performance metrics such as accuracy, precision, recall, F1-score, and ROC curve analysis.
 
 
 
 2. Dataset Overview (Link : https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/code)
 The dataset used in this project is the IMDB Movie Review Dataset, which consists of large-scale textual data containing reviews of movies along with their corresponding sentiment labels (positive or negative). The dataset is structured into two primary components:
-
 Review Text: This consists of textual reviews written by users about various movies. The reviews contain subjective opinions, making sentiment classification a challenging task.
 Sentiment Labels: Each review is labeled as either positive (indicating a favorable review) or negative (indicating an unfavorable review).
 The dataset is split into two parts for model training and evaluation:
