@@ -197,14 +197,14 @@ The model allows users to input custom reviews and get real-time sentiment predi
 <img width="556" alt="image" src="https://github.com/user-attachments/assets/9f323928-e0a2-4da4-b69b-c0bbd292a3dd" />
 
 
-9. Summary of Results
+9. Summary of Results:
 The Naïve Bayes classifier successfully classifies IMDB movie reviews with an accuracy of approximately 85.99%. The key observations are:
 The model performs well in distinguishing positive and negative reviews.
 Precision and recall values indicate a well-balanced classification approach.
 ROC curve analysis confirms that the model has a strong discriminatory ability.
 Training with 70% of the data provided slightly better performance than training with 80%, indicating that too much training data may introduce noise.
 
-10. Conclusion
+10. Conclusion:
 This implementation demonstrates the effectiveness of Naïve Bayes for sentiment analysis. With proper text preprocessing, feature extraction, and probability-based classification, the model successfully analyzes the sentiment of IMDB reviews. Future improvements could include handling negations, incorporating TF-IDF, or using deep learning models for comparison.
 
 
