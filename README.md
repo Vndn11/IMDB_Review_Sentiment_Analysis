@@ -111,8 +111,11 @@ This ensures that each review is converted into a numerical format for the class
 
 5. Training Naïve Bayes Classifier
 Once the data is preprocessed and transformed into a numerical format using Binary Bag-of-Words (BoW), we train the Naïve Bayes classifier.
+
+
 5.1 Overview of Naïve Bayes for Sentiment Analysis
 The Naïve Bayes algorithm is a probabilistic classifier based on Bayes' Theorem, assuming that features (words in this case) are independent given the class label. The classifier calculates the probability of a review being positive or negative based on the occurrence of words in the review text.
+
 
 <img width="520" alt="image" src="https://github.com/user-attachments/assets/497d5bc0-ed23-46c7-8adc-1676e8f95fe1" />
 
@@ -121,8 +124,6 @@ The Naïve Bayes algorithm is a probabilistic classifier based on Bayes' Theorem
 To train the Naïve Bayes model, we count the occurrences of words in each class and compute probabilities. We use Laplace Smoothing (Add-1 Smoothing) to avoid zero probabilities.
 
 <img width="869" alt="image" src="https://github.com/user-attachments/assets/a1c15aef-9849-4502-8b35-fd50ffb26221" />
-
-
 
 
 In this implementation:
