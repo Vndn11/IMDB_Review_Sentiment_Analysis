@@ -19,7 +19,6 @@ This dataset is widely used in sentiment analysis research due to its large size
 
 3. Preprocessing Steps
 Before training the Naïve Bayes model, it is crucial to preprocess the text data to improve classification accuracy. The following preprocessing techniques are applied:
-
 3.1 Lowercasing
 To ensure uniformity, all text is converted to lowercase, eliminating any inconsistencies due to case sensitivity.
 
@@ -92,7 +91,6 @@ Lemmatization helps to standardize words by converting them to their base forms 
 
 4. Feature Engineering
 To transform text into numerical values for machine learning, the Bag-of-Words (BoW) representation is used.
-
 4.1 Create Vocabulary
 Extracts unique words from all reviews:
 
@@ -119,7 +117,6 @@ This ensures that each review is converted into a numerical format for the class
 
 5. Training Naïve Bayes Classifier
 Once the data is preprocessed and transformed into a numerical format using Binary Bag-of-Words (BoW), we train the Naïve Bayes classifier.
-
 5.1 Overview of Naïve Bayes for Sentiment Analysis
 The Naïve Bayes algorithm is a probabilistic classifier based on Bayes' Theorem, assuming that features (words in this case) are independent given the class label. The classifier calculates the probability of a review being positive or negative based on the occurrence of words in the review text.
 
@@ -152,7 +149,6 @@ It selects the class with the highest probability as the predicted label.
 
 7. Model Evaluation
 Once the model is trained and predictions are made, we evaluate its performance using various classification metrics.
-
 7.1 Performance Metrics
 To assess how well the model classifies reviews, we compute the following metrics:
 
