@@ -21,11 +21,15 @@ This dataset is widely used in sentiment analysis research due to its large size
 Before training the Naïve Bayes model, it is crucial to preprocess the text data to improve classification accuracy. The following preprocessing techniques are applied:
 3.1 Lowercasing
 To ensure uniformity, all text is converted to lowercase, eliminating any inconsistencies due to case sensitivity.
+
 <img width="299" alt="image" src="https://github.com/user-attachments/assets/316c1259-b957-4b96-a2bc-485c1d7cd047" />
 This step helps to standardize the text, ensuring that words like "Great" and "great" are treated as the same word.
+
 3.2 Remove HTML Tags
 Many reviews contain HTML tags that are unnecessary for sentiment analysis. Removing them cleans up the text:
+
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/8434158f-12ca-4cc8-8091-af277ce93fa7" />
+
 HTML tags, often found in web-based datasets, do not contribute meaningfully to the sentiment classification task.
 3.3 Remove URLs
 Since some reviews contain website links (URLs), these need to be removed:
