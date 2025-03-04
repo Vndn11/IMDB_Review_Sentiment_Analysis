@@ -12,13 +12,12 @@ The dataset used in this project is the IMDB Movie Review Dataset, which consist
 Review Text: This consists of textual reviews written by users about various movies. The reviews contain subjective opinions, making sentiment classification a challenging task.
 Sentiment Labels: Each review is labeled as either positive (indicating a favorable review) or negative (indicating an unfavorable review).
 The dataset is split into two parts for model training and evaluation:
-
-Training Set: A specified percentage of the dataset (e.g., 80% or 70%) is used for training the Naïve Bayes classifier. This portion is used to learn the underlying patterns in the data.
-Test Set: The remaining portion of the dataset (e.g., 20% or 30%) is used to evaluate the trained model. The test set provides an unbiased assessment of how well the model generalizes to unseen data.
+-> Training Set: A specified percentage of the dataset (e.g., 80% or 70%) is used for training the Naïve Bayes classifier. This portion is used to learn the underlying patterns in the data.
+-> Test Set: The remaining portion of the dataset (e.g., 20% or 30%) is used to evaluate the trained model. The test set provides an unbiased assessment of how well the model generalizes to unseen data.
 This dataset is widely used in sentiment analysis research due to its large size, real-world nature, and inherent challenges in text classification.
 
 
-3. Preprocessing Steps
+4. Preprocessing Steps
 Before training the Naïve Bayes model, it is crucial to preprocess the text data to improve classification accuracy. The following preprocessing techniques are applied:
 
 
