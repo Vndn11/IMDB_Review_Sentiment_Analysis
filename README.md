@@ -111,9 +111,13 @@ Allows user input to classify sentences in real-time:
 
 8. Summary
 -> Preprocessing: Cleaned text data.
+   
 -> Feature Engineering: Converted text into a binary bag-of-words.
+
 -> Model Training: Used Naïve Bayes classifier with Laplace smoothing.
+
 -> Evaluation: Achieved 85.99% accuracy with good sensitivity and specificity.
+
 -> User Interaction: Allowed real-time predictions for new sentences.
 
 
